@@ -1,0 +1,91 @@
+/* Type */
+
+body {
+	background-color: #f0f0f0;
+	color: yellow;
+	font-family: Varela Round; sans-serif;
+	line-height: 1.5;
+    font-size: 3em;
+}
+
+h1 {
+	font-family: 'Varela Round', sans-serif;
+	opacity: 0.8;
+    font-size: 3.5em;
+    text-align: left;
+    color: #373cff;
+    margin: 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+h2 {
+	font-family: sans-serif;
+    font-size: 5em;
+    text-align: center;
+    color: #3c3b42;
+    margin-bottom: 100px;
+
+}
+
+h3 {
+	font-family: 'Varela Round', sans-serif;
+	color: #373cff;
+	opacity: 0.8;
+	position: absolute;
+    font-size: 3.5em;
+    text-align: right;
+    bottom: 0;
+    margin: 0;
+    right: 0;
+    top: 1300px
+
+}
+
+
+
+.align1 {
+	text-align: right;
+	position: fixed;
+	right: 0;
+	font-weight: bold
+}
+
+.align2 {
+	text-align: left;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	font-weight: bold
+
+}
+
+.new-style {
+	font-family: sans-serif;
+	color: #3f4567;	
+	font-size: 2.9em;
+	text-align: center;
+	transform: rotate(-20deg);
+	filter: drop-shadow(15);
+	filter: drop-shadow(2px 4px 6px);
+}
+
+.back1 {
+	color: #a7a7a6;
+    font-size: 25px;
+    position: fixed;
+    text-align: right;
+    margin-right: 0;
+    margin-top: 5px;
+    margin-left: 1250px;
+   
+}
+
+.back2 {
+	color: #3c3b42;
+    text-align: right;
+    font-size: 25px;
+    position: absolute;
+    margin-left: 100px;
+}
