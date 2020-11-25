@@ -1,0 +1,62 @@
+/* Interview */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("./img/leaves.png");
+	background-repeat:no-repeat;
+	background-size: cover;
+	color: black;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: normal;
+	line-height: 1.4;
+	font-size: 23px;
+	margin: 6em;
+}
+h1 {
+	font-size: 3em;
+    color: #ff6f6f;
+    text-align: center;
+ }
+
+input[id*="answer"] {
+	display: none;
+}
+input[id*="answer"] + label {
+	display:block;
+	padding:20px;
+	border:1px solid #5f9a27;
+	border-bottom:0;
+	color:#fff;
+	font-weight:900;
+	background:#a4c188;
+	cursor:pointer;
+	position:relative;
+}
+input[id*="answer"] + label em {
+	position:absolute;
+	top:50%;
+	right:10px;
+	width:30px;
+	height:30px;
+	margin-top:-15px;
+	display:inline-block;
+	background:url('./img/arrow.png') 0 0 no-repeat;
+}
+input[id*="answer"] + label + div {
+	max-height:0;
+	transition:all .35s;
+	overflow:hidden;
+	background:#ebf8ff;
+	font-size:11px;
+}
+input[id*="answer"] + label + div p {
+	display:inline-block;
+	padding:20px;
+	font-size:20px; 
+	font-family: 'Ubuntu', sans-serif;
+
+}
+input[id*="answer"]:checked + label + div {max-height:200px;}
+input[id*="answer"]:checked + label em {background-position:0 -30px;}
